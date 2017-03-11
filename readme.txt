@@ -1,11 +1,7 @@
-DataSet:
-Joensuu_ShapeSets
-include a data specification, data within the directory can be handled. 
 
+1. Platforms:
 
-Platforms:
-
-1. Windows 7(32bit)
+1.1 Windows 7(32bit)
 Construct  of  directory
  |--platforms
  |  |-- qwindows.dll
@@ -20,9 +16,19 @@ Construct  of  directory
  |--Qt5Gui.dll
  |--Qt5Widgets.dll
 
-2.CentOS6.5
+1.2 CentOS6.5
 AutoClust              //main program
 Library                //leave out
 
 
-menu"Help"--About      //Usage
+2. Usage
+menu"Help"--About      
+
+
+3. DataSet:
+
+3.1 Joensuu_ShapeSets
+xxx_O.txt  come from http://cs.joensuu.fi/sipu/datasets/, and include category information.
+xxx.txt    should be handled.
+
+3.2 ORL Faces
